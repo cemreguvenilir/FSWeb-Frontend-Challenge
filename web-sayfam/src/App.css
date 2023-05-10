@@ -41,6 +41,9 @@
   letter-spacing: 0.1em;
   color: #4731d3;
 }
+.languageHover {
+  cursor: pointer;
+}
 /* header */
 .headerContainer {
   display: flex;
