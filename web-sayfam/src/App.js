@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -7,18 +6,27 @@ import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import SwitchMode from "./components/SwitchMode";
+import { ThemeContext } from "./contexts/ThemeContext";
+import { useState } from "react";
 
 function App() {
+  const [theme, setTheme] = useState("light");
+
+  const toggleTheme = () => {
+    setTheme(theme === "light" ? "dark" : "light");
+  };
   return (
-    <div className="App">
-      <SwitchMode />
-      <Header />
-      <Hero />
-      <Skills />
-      <Profile />
-      <Projects />
-      <Footer />
-    </div>
+    <ThemeContext.Provider value={{ theme, toggleTheme }}>
+      <div className="App" id={theme}>
+        <SwitchMode />
+        <Header />
+        <Hero />
+        <Skills />
+        <Profile />
+        <Projects />
+        <Footer />
+      </div>
+    </ThemeContext.Provider>
   );
 }
 

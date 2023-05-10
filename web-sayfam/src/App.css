@@ -1,3 +1,5 @@
+/*genel */
+
 /* switchMode */
 
 .switch {
@@ -98,6 +100,7 @@
 }
 
 /* hero */
+
 .heroContainer {
   display: flex;
   flex-direction: column;
@@ -109,7 +112,6 @@
 }
 
 .nameLine {
-  background: #4338ca;
   width: 6rem;
   border: 1px solid #3730a3;
   height: 0px;
@@ -148,7 +150,7 @@
   /*box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12),
     0px 18px 88px -4px rgba(24, 39, 75, 0.14); */
   border-radius: 1.125rem;
-  width: 35rem;
+  width: 32rem;
   height: 30rem;
 }
 .head {
@@ -488,4 +490,95 @@
   letter-spacing: 0.05em;
   text-decoration-line: underline;
   color: #af0c48;
+}
+
+/* dark mode */
+
+/* #dark .heroMain,
+.headerMain,
+.skillsMain,
+.projectMain,
+.profileMain,
+.switchMain {
+  background: #252128;
+} */
+
+body #dark {
+  background: #252128;
+}
+#dark .footerContainer {
+  background: #141414;
+}
+
+#dark .footerText {
+  color: #aebccf;
+}
+
+#dark .mail {
+  color: #bab2e7;
+}
+
+#dark .linksBlog {
+  color: #e1e1ff;
+}
+
+#dark .projectHeading,
+#dark .profileHeading,
+#dark .skillsHeader,
+#dark .head {
+  color: #aebccf;
+}
+#dark .subHeading {
+  color: #b7aaff;
+}
+#dark .nameH {
+  color: #b7aaff;
+}
+
+#dark .nameLine {
+  border: 1px solid #bab2e7;
+}
+
+#dark .pText,
+#dark .skillsText,
+#dark .keys,
+#dark .values,
+#dark .projectText,
+#dark .aboutText {
+  color: #ffffff;
+}
+
+#dark .logo {
+  background: #4731d3;
+}
+#dark .hireMe {
+  background: #e1e1ff;
+}
+#dark .firstButton {
+  background: #e1e1ff;
+}
+#dark .buttonHero {
+  color: #000000;
+}
+#dark .secondButton,
+#dark .thirdButton {
+  background: #383838;
+  border: 1px solid #e1e1ff;
+}
+#dark .githubButton {
+  color: #e1e1ff;
+}
+#dark .linkButton {
+  color: #e1e1ff;
+}
+#dark .githubLinkA {
+  color: #e1e1ff;
+}
+#dark .projectButtons p {
+  background: #383838;
+  border: 1px solid #8f88ff;
+  color: #8f88ff;
+}
+#dark .darkText {
+  color: #d9d9d9;
 }
