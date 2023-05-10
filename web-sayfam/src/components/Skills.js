@@ -4,27 +4,30 @@ export default function Skills() {
   return (
     <div className="skillsMain">
       <div className="skillsContainer">
-        <h2 className="skillsHeader">Skills</h2>
+        <h2 className="skillsHeader" id="skills">
+          Skills
+        </h2>
         <div className="skillsList">
           <div className="javascript">
             <h3 className="subHeading">Java Script</h3>
             <p className="skillsText">
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim id est laborum.
+              A scripting language that enables you to create dynamically
+              updating content, control multimedia, animate images, and pretty
+              much everything else.
             </p>
           </div>
           <div className="react">
             <h3 className="subHeading">React.Js</h3>
             <p className="skillsText">
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim id est laborum.
+              A declarative, component-based, open-source front-end JavaScript
+              library for building user interfaces.
             </p>
           </div>
           <div className="node">
             <h3 className="subHeading">Node.Js</h3>
             <p className="skillsText">
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim id est laborum.
+              A platform built on Chrome's JavaScript runtime for easily
+              building fast and scalable network applications.
             </p>
           </div>
         </div>

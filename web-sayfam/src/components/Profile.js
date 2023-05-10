@@ -10,15 +10,15 @@ export default function Profile() {
             <h3 className="subHeading">Profile</h3>
             <div className="keysValue">
               <div className="keysProfile">
-                <p className="keys">Doğum Tarihi</p>
-                <p className="keys">İkamet Şehri</p>
-                <p className="keys">Eğitim Durumu</p>
-                <p className="keys">Tercih Ettiği Rol</p>
+                <p className="keys">Date of Birth</p>
+                <p className="keys">City of Residence</p>
+                <p className="keys">Educational Status</p>
+                <p className="keys">Preferred Role</p>
               </div>
               <div className="valuesProfile">
                 <p className="values">17.05.1998</p>
                 <p className="values">Istanbul</p>
-                <p className="values">Boğaziçi Üniversitesi, Felsefe, 2023</p>
+                <p className="values">Boğaziçi University, Philosophy, 2023</p>
                 <p className="values">Frontend, UI</p>
               </div>
             </div>
@@ -26,12 +26,13 @@ export default function Profile() {
           <div className="about">
             <h3 className="subHeading">About Me</h3>
             <p className="aboutText">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Veniam
-              aut, odit laborum aliquam voluptatum nisi mollitia.
+              I studied philosophy at Boğaziçi University and graduated in
+              January 2023. I met Workintech when I realized that I wanted to
+              continue my career with software.
             </p>
             <p className="aboutText">
-              Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quad
-              deserunt quam temporibus cumque magnam!
+              I received intensive full stack training for 6 months. I continue
+              to improve myself to be better in this area.
             </p>
           </div>
         </div>

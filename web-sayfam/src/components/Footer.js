@@ -10,18 +10,19 @@ export default function Footer() {
 
         <div className="footer">
           <div className="mailInfo">
+            <span className="finger"> 👉 </span>
             <a className="mail" href="mailto:guvenilircemre@gmail.com">
-              👉 guvenilircemre@gmail.com
+              guvenilircemre@gmail.com
             </a>
           </div>
           <div className="footerLinks">
             <a className="linksBlog" href="#">
               Personal Blog
             </a>
-            <a className="linksGithub" href="#">
+            <a className="linksGithub" href="https://github.com/cemreguvenilir">
               Github
             </a>
-            <a className="linksLinkedin" href="#">
+            <a className="linksLinkedin" href="https://www.linkedin.com">
               Linkedin
             </a>
           </div>

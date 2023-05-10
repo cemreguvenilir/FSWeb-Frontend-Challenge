@@ -6,7 +6,7 @@ export default function Hero() {
       <div className="heroContainer">
         <div className="heroName">
           <hr className="nameLine" />
-          <h5 className="nameH">Cemre Guvenilir</h5>
+          <h5 className="nameH">Cemre Güvenilir</h5>
         </div>
         <div className="heroTotal">
           <div className="heroText">
@@ -21,11 +21,20 @@ export default function Hero() {
             </p>
             <div className="heroButtons">
               <div className="firstButton">
-                <p className="buttonHero">Hire me</p>
+                <a
+                  href="mailto:guvenilircemre@gmail.com"
+                  className="buttonHero"
+                >
+                  Hire me
+                </a>
               </div>
               <div className="secondButton">
                 <img className="buttonLogo" src="github.png" alt="githubLogo" />
-                <a className="githubButton" href="#">
+                <a
+                  className="githubButton"
+                  target="_blank"
+                  href="https://github.com/cemreguvenilir"
+                >
                   Github
                 </a>
               </div>
@@ -35,7 +44,11 @@ export default function Hero() {
                   src="LinkedIn.png"
                   alt="linkedinLogo"
                 />
-                <a className="linkButton" href="#">
+                <a
+                  className="linkButton"
+                  target="_blank"
+                  href="https://www.linkedin.com"
+                >
                   Linkedin
                 </a>
               </div>

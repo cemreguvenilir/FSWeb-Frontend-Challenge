@@ -80,9 +80,12 @@
   font-weight: 500;
   font-size: 1.125rem;
   line-height: 1.75rem;
-  color: #6b7280;
+
   text-decoration: none;
   padding: 0.75rem 2rem;
+}
+.navA {
+  color: #6b7280;
 }
 
 .hireMe {
@@ -209,7 +212,8 @@
   height: 3.25rem;
 }
 
-.heroButtons a {
+.githubButton,
+.linkButton {
   width: 3.688rem;
   height: 1.75rem;
   font-family: "Inter";
@@ -293,7 +297,7 @@
 .keysProfile {
   display: flex;
   flex-direction: column;
-  width: 12rem;
+  width: 13rem;
 }
 
 .keys {
@@ -308,7 +312,7 @@
 .valuesProfile {
   display: flex;
   flex-direction: column;
-  width: 20rem;
+  width: 21rem;
 }
 .values {
   font-family: "Inter";
@@ -359,7 +363,7 @@
   margin-bottom: 2rem;
 }
 
-.projectsList {
+.projectsTotal {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -374,6 +378,10 @@
   font-size: 0.875rem;
   line-height: 125%;
   color: #6b7280;
+}
+
+.projectsImg {
+  width: 50%;
 }
 
 .projectButtons {
@@ -491,6 +499,9 @@
   text-decoration-line: underline;
   color: #af0c48;
 }
+.finger {
+  font-size: 1.25rem;
+}
 
 /* dark mode */
 
@@ -571,7 +582,7 @@ body #dark {
 #dark .linkButton {
   color: #e1e1ff;
 }
-#dark .githubLinkA {
+#dark .githubLink a {
   color: #e1e1ff;
 }
 #dark .projectButtons p {
