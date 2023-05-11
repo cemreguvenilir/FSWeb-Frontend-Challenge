@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 import SwitchMode from "./components/SwitchMode";
 import { ThemeContext } from "./contexts/ThemeContext";
 import { LanguageContext } from "./contexts/LanguageContext";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 

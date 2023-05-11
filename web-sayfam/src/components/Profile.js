@@ -7,10 +7,20 @@ export default function Profile() {
   return (
     <div className="profileMain">
       <div className="profileContainer">
-        <h2 className="profileHeading">Profile</h2>
+        {language === "eng" ? (
+          <h2 className="profileHeading">Profile</h2>
+        ) : (
+          <h2 className="profileHeading">Profil</h2>
+        )}
+
         <div className="profileAbout">
           <div className="profile">
-            <h3 className="subHeading">Profile</h3>
+            {language === "eng" ? (
+              <h3 className="subHeading">Profile</h3>
+            ) : (
+              <h3 className="subHeading">Profil</h3>
+            )}
+
             <div className="keysValue">
               {language === "eng" ? (
                 <div className="keysProfile">
@@ -44,7 +54,12 @@ export default function Profile() {
             </div>
           </div>
           <div className="about">
-            <h3 className="subHeading">About Me</h3>
+            {language === "eng" ? (
+              <h3 className="subHeading">About Me</h3>
+            ) : (
+              <h3 className="subHeading">Hakkımda</h3>
+            )}
+
             {language === "eng" ? (
               <p className="aboutText">
                 I studied philosophy at Boğaziçi University and graduated in

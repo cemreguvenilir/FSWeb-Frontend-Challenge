@@ -98,7 +98,7 @@ export default function Projects() {
     <div className="projectMain">
       <div className="projectsContainer">
         <h2 className="projectHeading" id="projects">
-          Projects
+          Projeler
         </h2>
         <div className="projectsTotal">
           {dataTr.map((project) => (
