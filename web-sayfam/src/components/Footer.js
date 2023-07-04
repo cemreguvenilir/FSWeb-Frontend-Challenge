@@ -38,7 +38,10 @@ export default function Footer() {
             <a className="linksGithub" href="https://github.com/cemreguvenilir">
               Github
             </a>
-            <a className="linksLinkedin" href="https://www.linkedin.com">
+            <a
+              className="linksLinkedin"
+              href="https://www.linkedin.com/in/cemre-g%C3%BCvenilir-6800a0282/"
+            >
               Linkedin
             </a>
           </div>

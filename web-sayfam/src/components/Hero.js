@@ -76,14 +76,14 @@ export default function Hero() {
                 <a
                   className="linkButton"
                   target="_blank"
-                  href="https://www.linkedin.com"
+                  href="https://www.linkedin.com/in/cemre-g%C3%BCvenilir-6800a0282/"
                 >
                   Linkedin
                 </a>
               </div>
             </div>
           </div>
-          <img className="heroImg" src="image1.png" alt="studying" />
+          <img className="heroImg" src="cemre.png" alt="me" />
         </div>
       </div>
     </div>
