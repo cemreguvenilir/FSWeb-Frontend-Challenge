@@ -18,7 +18,7 @@ export default function Skills() {
         )}
 
         <div className="skillsList">
-          <div className="javascript">
+          <div className="skillBox">
             <h3 className="subHeading">Java Script</h3>
             {language === "eng" ? (
               <p className="skillsText">
@@ -34,7 +34,7 @@ export default function Skills() {
               </p>
             )}
           </div>
-          <div className="react">
+          <div className="skillBox">
             <h3 className="subHeading">React.Js</h3>
             {language === "eng" ? (
               <p className="skillsText">
@@ -48,7 +48,7 @@ export default function Skills() {
               </p>
             )}
           </div>
-          <div className="node">
+          <div className="skillBox">
             <h3 className="subHeading">Node.Js</h3>
             {language === "eng" ? (
               <p className="skillsText">
@@ -60,6 +60,54 @@ export default function Skills() {
                 Hızlı ve ölçeklenebilir ağ uygulamalarını kolayca oluşturmak
                 için Chrome'un JavaScript çalıştırma zamanı üzerine oluşturulmuş
                 bir platform.
+              </p>
+            )}
+          </div>
+
+          <div className="skillBox">
+            <h3 className="subHeading">Java</h3>
+            {language === "eng" ? (
+              <p className="skillsText">
+                A programming language that can be used to code all kinds of
+                software, from mobile applications and enterprise software to
+                big data applications and server-side technologies.
+              </p>
+            ) : (
+              <p className="skillsText">
+                Mobil uygulamalardan kurumsal yazılımlara, büyük veri
+                uygulamalarından sunucu tarafı teknolojilerine kadar her türlü
+                yazılımı kodlamak için kullanılabilecek bir programlama dili.
+              </p>
+            )}
+          </div>
+
+          <div className="skillBox">
+            <h3 className="subHeading">SQL</h3>
+            {language === "eng" ? (
+              <p className="skillsText">
+                SQL, or Structured Query Language, is a domain-specific language
+                used for managing and manipulating relational databases.
+              </p>
+            ) : (
+              <p className="skillsText">
+                SQL veya Yapılandırılmış Sorgu Dili, ilişkisel veritabanlarını
+                yönetmek ve değiştirmek için kullanılan alana özgü bir dildir.
+              </p>
+            )}
+          </div>
+          <div className="skillBox">
+            <h3 className="subHeading">OOP</h3>
+            {language === "eng" ? (
+              <p className="skillsText">
+                Object-Oriented Programming(OOP) is a programming paradigm that
+                organizes code around the concept of "objects," which
+                encapsulate data and behavior.
+              </p>
+            ) : (
+              <p className="skillsText">
+                Nesneye Dayalı Programlama(OOP), kodu veri ve davranışı kapsayan
+                "nesneler" kavramı etrafında düzenleyen bir programlama
+                paradigmasıdır.
               </p>
             )}
           </div>

@@ -93,6 +93,16 @@ export default function Projects() {
           ))}
         </div>
       </div>
+      <div className="otherProjects">
+        <p className="otherP">
+          ➜ You can find all my other projects on my
+          <a className="otherA" href="https://github.com/cemreguvenilir">
+            {" "}
+            GitHub!
+          </a>{" "}
+          :)
+        </p>
+      </div>
     </div>
   ) : (
     <div className="projectMain">
@@ -123,6 +133,16 @@ export default function Projects() {
             </div>
           ))}
         </div>
+      </div>
+      <div className="otherProjects">
+        <p className="otherP">
+          ➜ Diğer projelerime
+          <a className="otherA" href="https://github.com/cemreguvenilir">
+            {" "}
+            GitHub
+          </a>{" "}
+          hesabımdan ulaşabilirsiniz! :)
+        </p>
       </div>
     </div>
   );

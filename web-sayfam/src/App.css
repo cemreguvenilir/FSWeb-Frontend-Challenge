@@ -253,10 +253,12 @@
 
 .skillsList {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 7.5rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.skillBox {
+  width: 30%;
+  margin-bottom: 20px;
 }
 
 .subHeading {
@@ -435,7 +437,21 @@
 .projectsList img {
   margin-bottom: 2rem;
 }
-
+.otherP {
+  text-align: end;
+  padding-bottom: 5rem;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #6b7280;
+  font-style: italic;
+}
+.otherProjects {
+  width: 90%;
+}
+.otherA {
+  text-decoration: none;
+  color: #000;
+}
 /* footer */
 
 .footerContainer {
